@@ -1,0 +1,398 @@
+body
+		{
+			background-color:#fff;
+		}
+
+		title
+		{
+			background-image: url('./../public/img/9.jpg');
+		}
+
+	#menu li
+	{
+		font-size: 1.4em;
+	 font-family: 'Alfa Slab One', cursive;
+
+	}
+	
+		
+		.navbar-brand
+		{
+			font-size: 1.6em;
+			font-family: 'Monoton';
+			color: #fff;
+		}
+
+		.container
+		{
+			/*background-attachment: fixed;*/
+			background-repeat: no-repeat;
+			background-size: cover;
+			overflow: hidden;
+			background-image: url('./../public/img/9.jpg');
+			width: 100%;
+			height: 700px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			/*position: fixed;*/
+			background-position: center;
+
+		}
+		#heading
+		{
+			height: 500px;
+			width: 800px;
+			text-align: center;
+			margin-top: 10%;
+			margin-left: 5%;
+			margin-right: 2%;
+			/*background-color: grey;*/
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			/*background-attachment: fixed;*/
+			overflow: hidden;
+
+
+		}
+		h4
+		{
+			color: #fff;
+			margin-top: 5%
+			/*font-size:1.8em;*/
+		}
+		h5
+		{
+			color: #fff;
+			margin-top: 5%;
+			
+
+		}
+	
+		h1
+		{
+			color: #fff;
+			font-size:100pt;
+			font-family: 'Allerta';
+	 	text-shadow: 0 1px 0 #ccc,
+
+	 0 2px 0 #c9c9c9,
+
+	 0 3px 0 #bbb,
+
+	 0 4px 0 #b9b9b9,
+
+	 0 5px 0 #aaa,
+
+	 0 6px 1px rgba(0,0,0,.1),
+
+	 0 0 5px rgba(0,0,0,.1),
+
+	 0 1px 3px rgba(0,0,0,.3),
+
+	 0 3px 5px rgba(0,0,0,.2),
+
+	 0 5px 10px rgba(0,0,0,.25),
+
+	 0 10px 10px rgba(0,0,0,.2),
+	 0 20px 20px rgba(0,0,0,.15);
+		}
+		
+
+		#iconlist
+		{
+			display: flex;
+			flex-direction: row;
+			list-style: none;
+			margin-top: 1%;
+			margin-left: 20%;
+		}
+		#iconlist  li
+		{
+			
+			/*padding-right: 50px;*/
+			border-radius: 50%;
+			background-color: #30353a;
+			display: block;
+			padding:10px;
+			margin-right: 5%;
+			opacity: 0.9;
+			border:4px solid #fff; 
+		}
+		#iconlist li i
+		{
+			color: #1dbfa7;
+		}
+		#iconlist li:hover
+		{
+			transform: scale(1.2);
+			transition: 1s ease-in-out;
+
+		}
+	
+
+		hr
+		{
+			border-color: #fff;
+		}
+
+/********************************************************************************************************************
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Blog Section!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+********************************************************************************************************************/
+
+.container-fluid
+{
+		background-color:lightgrey;
+		margin: 0 10%;
+		height: auto;
+		padding: 2% 10% 10% 10%;
+}
+.demo-card-square
+{
+	margin: 5% auto;
+	height: 250px;
+
+}
+.mdl-card__title
+{
+	background: url('./../public/img/9.jpg') bottom right 15% no-repeat #46B6AC;
+}
+.mdl-card__title-text
+{
+	color:#fff;
+	font-size: 16px;
+}
+#blog
+{
+
+text-align: center;
+}
+#blog h1
+{
+color: #000;
+
+margin-top: 5%;
+
+}
+#blog h4
+{
+	color:#000;
+	margin-bottom: 5%;
+}
+.list-group-item
+{
+	color: grey;
+	font-size: 16px;
+}
+/*.btnread:hover
+{
+	
+}*/
+.btn
+{
+	cursor: pointer;
+}
+/*****************************************************
+footer styling*/
+.mdl-mega-footer__middle-section
+{
+	margin-left: 10%;
+}
+.mdl-mega-footer__drop-down-section
+{
+	margin:0 3% 0 5%;
+}
+.mdl-mega-footer__drop-down-section h2
+{
+	font-size: 22px;
+	font-weight: bold;
+}
+.mdl-mega-footer__drop-down-section h6
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#footerlist1 li
+{
+	margin:5% auto;
+	font-size: 14px;
+}
+
+#footerlist3 li
+{
+	margin:5% auto;
+	font-size: 14px;
+	margin-bottom: 2%;
+}
+#footerlist3 li i
+{
+padding-right: 4%;
+}
+#footerlist4 li
+{
+	margin:5% auto 0 15%;
+	font-size: 14px;
+
+}
+/*******************************************************************************************************
+Contact page styling
+********************************************************************************************************/
+form
+{
+	margin: 10% 0 10% 20%;
+	text-align: center;
+}
+form label
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+#submit
+{
+	margin: 5% 20% 0 0;
+	width: 40%;
+	font-weight: bold;
+	font-size: 20px;
+}
+#contact
+{
+	margin: 10% 0 5% 20%;
+}
+#contact h1
+{
+	font-size: 50pt;
+}
+textarea
+{
+	resize: none;
+}
+#success_message{ display: none;}
+
+
+.mdl-cell
+{
+	background-color: #fff;
+	height: 200px;
+	text-align: center;
+
+}
+
+.gridcol div
+{
+		background:url('./../public/img/9.jpg') bottom right 15% no-repeat #46B6AC;
+		border: 10px inset #000;
+}
+
+.gridcol h2
+{
+    font-family: 'Satisfy', cursive;
+	color: #fff;
+}
+
+.gridcol button
+{
+	margin: 20% 5% 0 5%;
+	padding:5%;
+	font-family: 'Ultra'
+}
+
+.gridcol button:hover
+{
+	transform: scale(1.04);
+	transition: 1s ease-in-out;
+	background-color: #1dbfa7;
+}
+
+#project
+{
+
+	text-align: center;
+	background-color: lightgrey;
+
+	
+}
+#project h1
+{
+color: #000
+}
+
+
+.mdl-grid:nth-child(1)
+{
+		margin-top: 10%;
+		background-color: lightgrey;
+		margin-bottom:5%;
+}
+
+
+/*about page**************************************************************************************************** */
+#aboutIntro h2
+{
+	font-family: 'Allerta';
+	font-size: 32px;
+}
+#aboutIntro h3
+{
+	font-family: 'Oswald';
+	margin-bottom: 2%;
+	
+}
+
+#aboutIntro span
+{
+	font-family: 'Aerial';
+	background-color: #1dbfa7;
+	
+}
+
+#aboutIntro p
+{
+	font-family: 'Satisfy';
+	font-size: 24px;
+	margin-top: 2%;
+
+	
+}
+
+#aboutIntro img
+{
+    border:10px outset #000;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#aboutSkills h2
+{
+	font-family: 'Allerta';
+	font-size: 32px;
+}
+.list-group
+{
+	margin-top: 5%;
+}
+
+#aboutSkills li
+{
+	margin-top: 5%;
+}
+
+.list-group-item span i
+{
+ color: #1dbfa7;
+}
+.removebadge
+{
+	color: grey;
+}
+
+#lang div
+{
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
+#lang h2
+{
+	margin:20%;
+}
